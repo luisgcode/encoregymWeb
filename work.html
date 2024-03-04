@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width" />
+
+      <title>ENCORE GYM: CLASSES</title>
+
+      <!-- NORMALIZE-->
+      <link rel="stylesheet" href="normalize.css" />
+
+      <!--CSS-->
+      <link rel="stylesheet" href="main.css" />
+
+      <!--PRINT-->
+      <!-- <link rel="stylesheet" href="" media="print"> -->
+
+      <!--FAVICON-->
+      <link rel="icon" href="images/icons/1favicon.ico" />
+      <link rel="icon" href="images/icons/1favicon.ico" type="image/svg+xml" />
+
+      <meta name="author" content="Luis Guaiquirian" />
+
+      <meta
+         name="description"
+         content="Luis Guaiquirian is an apprentice web programmer, specializing in front-end developer, student, based in Santiago de Chile, Chile, apprentice, web programmer, Venezuelan web developer, Chilean, front-end web programmer"
+      />
+
+      <meta name="keywords" content="Luis, Guaiquirian, Santiago web programmer, front-end developer" />
+
+      <!--
+    Luis Guaiquirian CHILE.
+    V:3.0
+
+    Launched: XX-XX-2022
+  -->
+
+      <!--PAGES-->
+
+      <!--GOOGLE FONTS - SANS PRO-->
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700&display=swap"
+         rel="stylesheet"
+      />
+
+      <!--FONT AWESOME-->
+      <script src="https://kit.fontawesome.com/18e45d357f.js" crossorigin="anonymous"></script>
+
+      <!-- ? FOR REGULAR COMMENTS -->
+   </head>
+   <body class="body">
+      <header class="header">
+         <nav class="header__nav">
+            <!-- mobile -->
+            <button class="header__icon-menu header__btn--openNav">
+               <svg class="svg__sprite svg__sprite--hamburguer">
+                  <use xlink:href="images/icons/_svg/sprite.svg#icon-menu"></use>
+                </svg>
+            </button>
+
+            <div class="header__nav-mobile header__nav-bg--orange">
+
+                  <div class="header__nav-mobile header__nav-bg--dark">
+                     <button class="header__icon-menu header__btn--closeNav">
+                        <svg class="svg__sprite svg__sprite--times">
+                           <use xlink:href="images/icons/_svg/sprite.svg#icon-times"></use>
+                         </svg>
+                     </button>
+
+                     <!-- mobile -->
+                     <div class="header__logo">
+                        <a href="#" class="logo">ENCORE <span class="logo__detail">GYM</span></a>
+                     </div>
+
+                     <ul class="header__mobile-ul">
+                        <li><a class="header__link" href="index.html">Home</a></li>
+                        <li><a class="header__link" href="classes.html">Classes</a></li>
+                        <li> <a class="header__link" href="locations.html">Locations</a></li>
+                        <ul class="header__mobile-ul--nested">
+                           <li>- 1160 Louder Miami</a></li>
+                           <li>- 660 Way Miami</a></li>
+                           <li>- 1123 Coral Miami</a></li>
+                           <li>- 9660 Coral Way Miami</a></li>
+                           <li>- 4660 Coral Miami</a></li>
+                           <li>- 423 Coral Miami</a></li>
+                        </ul>
+                        <li><a class="header__link" href="membership.html">Membership</a></li>
+                        <li> <a class="header__link modal__btn--open" href="#">contact us</a></li>
+                     </ul>
+                  </div>
+            </div>
+
+            <!-- desktop -->
+            <div class="header__logo">
+               <a href="#" class="logo">ENCORE <span class="logo__detail">GYM</span></a>
+            </div>
+
+            <ul class="header__nav-desktop">
+               <li> <a class="header__link" href="index.html">home</a></li>
+               <li> <a class="header__link" href="classes.html">Classes</a></li>
+               <li> <a class="header__link" href="locations.html">Locations</a></li>
+               <li> <a class="header__link" href="membership.html">Membership</a></li>
+               <li> <a class="header__link modal__btn--open header__link--bg" href="#">contact us</a></li>
+            </ul>
+
+
+            <ul class="header__login-ul">
+               <li class="header__nav-log">
+                  <a href="#" class="header__link">SIGN IN</a>
+               </li>
+               <li class="header__nav--mode">
+                  <button class="switch">
+                     <span> 
+                        Light
+                     </span>
+                     <span> 
+                        Dark
+                     </span>
+                  </button>
+               </li>
+            </ul>
+       
+         </nav>
+
+      </header>
+
+      <main>
+         <section class="work block">
+            <h2 class="heading-primary">Work with us at Encore Gym!</h2>
+
+            <div class="work__panel">
+               <ul class="work__ul">
+                  <li class="work__item">The biggest network of gyms around the country.</li>
+                  <li class="work__item">Opportunity for growing.</li>
+                  <li class="work__item">Free access to all our stores.</li>
+                  <li class="work__item">Professional support.</li>
+               </ul>
+
+            </div>
+
+            <form class="work__form">
+               <p class="heading-secondary">Send your info.</p>
+               <div class="work__row">
+                  <label class="work__label" for="fName">Name:</label>
+                  <input class="work__input" type="text" id="fName" name="fName" required pattern=".{3,}"/>
+               </div>
+
+               <div class="work__row">
+                  <label class="work__label" for="email">Email:</label>
+                  <input class="work__input" type="email" id="email" name="email" required
+                  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"/>
+               </div>
+
+               <div class="work__row">
+                  <label class="work__label" for="phone">Phone:</label>
+                  <input class="work__input" type="phone" id="phone" name="phone" placeholder="+58 1234 5678" required pattern=".{3,}" />
+               </div>
+
+               <div class="work__row">
+                  <label class="work__label" for="address">Address:</label>
+                  <input class="work__input" type="text" id="address" name="address" required pattern=".{3,}"/>
+               </div>
+
+               <div class="work__row">
+                  <label class="work__label" for="phone">Your CV:</label>
+                  <input class="work__input work__input--file" type="file" id="file" name="file" />
+               </div>
+
+               <div class="work__row">
+                  <button class="btn work__btn">Send info</button>
+               </div>
+            </form>
+
+         </section>
+      </main>
+
+      <!-- MODAL CONTACT -->
+      <div class="modal modal__hidden">
+         <button class="modal__btn--close">&times;</button>
+         <form class="modal__form">
+            <div class="modal__row">
+               <span class="row__title">email Us</span>
+               <div class="row__mail">
+                  <a class="row__maills" href="mailto:testing@gmail.com">info@encore.com</a>
+                  <a class="row__maills" href="mailto:testing@gmail.com">concierge@encore.com</a>
+               </div>
+            </div>
+            <div class="modal__row">
+               <span class="row__title">Say hello</span>
+               <div class="row__socials">
+                     <a href="#">
+                        <svg class="svg__sprite svg__sprite--instagram">
+                           <use xlink:href="images/icons/_svg/sprite.svg#icon-instagram"></use>
+                         </svg>
+                     </a>
+                     
+                     <a href="#">
+                        <svg class="svg__sprite svg__sprite--linkedin">
+                           <use xlink:href="images/icons/_svg/sprite.svg#icon-linkedin"></use>
+                         </svg> 
+                     </a>
+                     <a href="#">
+                        <svg class="svg__sprite svg__sprite--twitter">
+                           <use xlink:href="images/icons/_svg/sprite.svg#icon-twitter"></use>
+                         </svg> 
+                     </a>
+                     <a href="#">
+                        <svg class="svg__sprite svg__sprite--whatsapp">
+                           <use xlink:href="images/icons/_svg/sprite.svg#icon-whatsapp"></use>
+                         </svg> 
+                     </a>
+                     <a href="#">
+                        <svg class="svg__sprite svg__sprite--facebook">
+                           <use xlink:href="images/icons/_svg/sprite.svg#icon-facebook2"></use>
+                         </svg> 
+                     </a>
+                     <a href="#">
+                        <svg class="svg__sprite svg__sprite--youtube">
+                           <use xlink:href="images/icons/_svg/sprite.svg#icon-youtube"></use>
+                         </svg> 
+                     </a>
+               </div>
+            </div>
+
+            <div class="modal__row">
+               <span class="row__title">Call us</span>
+
+               <div class="modal__grid">
+               <div class="row__phones">
+                  <p class="row__address"> 1160 Louder Miami, FL, 365 United States</p>
+                  <a class="row__phone" href="#">(786) 497-8200</a>
+               </div>
+               <div class="row__phones">
+                  <p class="row__address"> 660 Way Miami, FL, United States</p>
+                  <a class="row__phone" href="#">(786) 497-8200</a>
+               </div>
+               <div class="row__phones">
+                  <p class="row__address"> 4660 Coral Miami, FL, 33325 United States</p>
+                  <a class="row__phone" href="#">(786) 497-8200</a>
+               </div>
+               <div class="row__phones">
+                  <p class="row__address"> 9660 Coral Way Miami, FL, 33165 United States</p>
+                  <a class="row__phone" href="#">(786) 497-8200</a>
+               </div>
+               <div class="row__phones">
+                  <p class="row__address"> 12 Coral Hall Miami, FL, United States</p>
+                  <a class="row__phone" href="#">(786) 497-8200</a>
+               </div>
+               <div class="row__phones">
+                  <p class="row__address"> 345 Dolphin Miami, FL, 33165 United States</p>
+                  <a class="row__phone" href="#">(786) 497-8200</a>
+               </div>
+            </div>
+            </div>
+         </form>
+      </div>
+      <div class="modal__overlay modal__hidden "></div>
+
+      <div class="newsletter block">
+         <div class="newsletter__content">
+               <h2 class="newsletter__title">Subscribe to our newsletter</h2>
+               <div class="newsletter__form">
+                  <input class="newsletter__input"
+                     type="email"
+                     name="email"
+                     id="email"
+                     required
+                     pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                     placeholder="Enter your email"
+                  />
+                  <button class="newsletter__button">Subscribe</button>
+               </div>
+               <p class="newsletter__text">You will receive a welcoming email</p>
+         </div>
+      </div>
+
+                <!-- Hook up -->
+    <div id="button-up">
+      <svg class="svg__sprite svg__sprite--hookUp">
+         <use xlink:href="images/icons/_svg/sprite.svg#icon-circle-up"></use>
+       </svg>
+    </div>
+
+      <footer class="footer block">
+         <div class="footer__content">
+
+               <ul class="footer__nav">
+                  <li class="footer__item"> <a href="work.html">Work</a></li>
+                  <li class="footer__item"> <a href="about.html">About us</a></li>
+                  <li class="footer__item"> <a href="privacy.html">Privacy</a></li>
+                  <li class="footer__item"> <a href="policies.html">Policies</a></li>
+                  <li class="footer__item modal__btn--open"> <a href="#">Contact us</a></li>
+               </ul>
+
+            <div class="footer__logo">
+               <a href="#" class="logo">ENCORE</a>
+            </div>
+
+            <div class="footer__social">
+               <li class="footer__item">
+                  <a class="footer__link" href="#">
+                     <svg class="svg__sprite svg__sprite--headset">
+                        <use xlink:href="images/icons/_svg/sprite.svg#icon-instagram"></use>
+                      </svg>
+                  </a>
+               </li>
+               <li class="footer__item">
+                  <a class="footer__link" href="#">
+                     <svg class="svg__sprite svg__sprite--headset">
+                        <use xlink:href="images/icons/_svg/sprite.svg#icon-facebook2"></use>
+                      </svg>
+                  </a>
+               </li>
+               <li class="footer__item">
+                  <a class="footer__link" href="#">
+                     <svg class="svg__sprite svg__sprite--headset">
+                        <use xlink:href="images/icons/_svg/sprite.svg#icon-youtube"></use>
+                      </svg>
+                  </a>
+               </li>
+            </div>
+
+            <p class="footer__copy">Encore gym website @2022 by: &nbsp; &nbsp;<a href="https://github.com/Widoguaiquirian">Luis Guaiquirian</a></p>
+         </div>
+      </footer>
+      <script src="javascript/script.js"></script>
+   </body>
+</html>

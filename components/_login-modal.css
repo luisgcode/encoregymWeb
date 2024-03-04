@@ -1,0 +1,33 @@
+.header__login-ul {
+   position: relative;
+}
+
+.header__login-box {
+   background-color: var(--color-secondary);
+   border-radius: 5px;
+   bottom: -155px;
+   display: flex;
+   flex-direction: column;
+   font-size: 1.5rem;
+   left: -100px;
+   padding: 1rem;
+   position: absolute;
+   width: 200px;
+   z-index: 99;
+}
+
+.header__login-box::after {
+   border-bottom: 10px solid var(--color-secondary);
+   border-left: 15px solid transparent;
+   border-right: 15px solid transparent;
+   content: "";
+   height: 0;
+   position: absolute;
+   right: 55px;
+   top: -10px;
+   width: 0;
+}
+
+.header__login-box-hide {
+   display: none;
+}

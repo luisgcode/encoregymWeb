@@ -1,0 +1,85 @@
+.class__block {
+   column-gap: 5rem;
+   display: grid;
+   grid-template-columns: 35% 65%;
+   margin: 10rem auto;
+   max-width: 1200px;
+}
+
+.class__figure {
+   border-radius: 5px;
+   box-shadow: 10px 10px 1px var(--color-bg-contrast);
+   margin: 0;
+   padding: 0;
+}
+
+.class__picture {
+   border-radius: 5px;
+   cursor: pointer;
+   height: 100%;
+   object-fit: cover;
+   transition: all 0.2s ease;
+   width: 100%;
+}
+
+.class__figure:hover .class__picture {
+   box-shadow: 7px 7px 5px var(--color-primary);
+   transform: translateX(-5px) translateY(-5px);
+}
+
+.class__title {
+   color: var(--color-primary);
+   font-size: 4rem;
+   margin: 0;
+}
+
+.regular-text {
+   text-align: left;
+}
+
+.class__schedules {
+   border-radius: 5px;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   padding: 1rem 0.5rem;
+   width: 100%;
+}
+
+.class__days {
+   font-size: 1.6rem;
+   font-weight: bold;
+}
+
+.class__hours {
+   display: flex;
+   flex-direction: column;
+   font-size: 1.5rem;
+}
+
+.class_hour {
+   display: block;
+}
+
+.class__btn {
+   font-size: 1.4rem;
+   padding: 0.5rem 1rem;
+}
+
+@media (max-width: 800px) {
+   .class__block {
+      display: grid;
+      grid-template-columns: 1fr;
+      margin: 5rem auto;
+   }
+
+   .class__title {
+      font-size: 3rem;
+      margin-top: 1rem;
+   }
+
+   .class__btn {
+      display: block;
+      margin: 1rem auto;
+      width: 100px;
+   }
+}

@@ -1,0 +1,31 @@
+.huincha {
+   background-color: var(--color-bg-contrast);
+   width: 100%;
+}
+
+.huincha__title {
+   color: var(--color-primary);
+}
+
+.huincha__info {
+   margin: 0 auto;
+   width: 60%;
+}
+
+@media (max-width: 1050px) {
+   /* flash promotion */
+   .huincha {
+      margin-bottom: 5rem;
+      padding: 2rem 0;
+   }
+
+   .huincha__title {
+      color: var(--color-primary);
+      font-size: 2rem;
+   }
+
+   .huincha__info {
+      margin: 0 auto;
+      width: 90%;
+   }
+}

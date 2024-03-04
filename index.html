@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width" />
+
+      <title>ENCORE GYM: WHERE HEALTHY LIFE HAPPENS</title>
+
+      <!-- NORMALIZE-->
+      <link rel="stylesheet" href="normalize.css" />
+
+      <!--CSS-->
+      <link rel="stylesheet" href="main.css" />
+
+      <!--PRINT-->
+      <!-- <link rel="stylesheet" href="" media="print"> -->
+
+      <!--FAVICON-->
+      <link rel="icon" href="images/icons/1favicon.ico" />
+      <link rel="icon" href="images/icons/1favicon.ico" type="image/svg+xml" />
+
+      <meta name="author" content="Luis Guaiquirian" />
+
+      <meta
+         name="description"
+         content="Luis Guaiquirian is an apprentice web programmer, specializing in front-end developer, student, based in Santiago de Chile, Chile, apprentice, web programmer, Venezuelan web developer, Chilean, front-end web programmer"
+      />
+
+      <meta name="keywords" content="Luis, Guaiquirian, Santiago web programmer, front-end developer" />
+
+      <!--
+    Luis Guaiquirian CHILE.
+    V:3.0
+
+    Launched: XX-XX-2022
+  -->
+
+      <!--PAGES-->
+
+      <!--GOOGLE FONTS - SANS PRO-->
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700&display=swap"
+         rel="stylesheet"
+      />
+
+      <!--FONT AWESOME-->
+      <script src="https://kit.fontawesome.com/18e45d357f.js" crossorigin="anonymous"></script>
+
+      <!-- ? FOR REGULAR COMMENTS -->
+   </head>
+   <body class="body">
+      <header class="header header--home">
+         <nav class="header__nav">
+            <button class="header__icon-menu header__btn--openNav">
+               <svg class="svg__sprite svg__sprite--hamburguer">
+                  <use xlink:href="images/icons/_svg/sprite.svg#icon-menu"></use>
+                </svg>
+            </button>                           
+            <div class="header__nav-mobile header__nav-bg--orange">
+                  <div class="header__nav-mobile header__nav-bg--dark">
+                     <button class="header__icon-menu header__btn--closeNav">
+                        <svg class="svg__sprite svg__sprite--times">
+                           <use xlink:href="images/icons/_svg/sprite.svg#icon-times"></use>
+                         </svg>
+                     </button>
+
+                     <!-- mobile -->
+                     <div class="header__logo">
+                        <a href="#" class="logo">ENCORE <span class="logo__detail">GYM</span></a>
+                     </div>
+                     
+                     <ul class="header__mobile-ul">
+                        <li><a class="header__link" href="index.html">Home</a></li>
+                        <li><a class="header__link" href="classes.html">Classes</a></li>
+                        <li><a class="header__link" href="locations.html">Locations</a></li>
+
+                        <ul class="header__mobile-ul--nested">
+                           <li>- 1160 Louder Miami</a></li>
+                           <li>- 660 Way Miami</a></li>
+                           <li>- 1123 Coral Miami</a></li>
+                           <li>- 9660 Coral Way Miami</a></li>
+                           <li>- 4660 Coral Miami</a></li>
+                           <li>- 423 Coral Miami</a></li>
+                        </ul>
+                        <li><a class="header__link" href="membership.html">Membership</a></li>
+                        <li> <a class="header__link modal__btn--open" href="#">contact us</a></li>
+                     </ul>
+                  </div>
+            </div>
+            <!-- desktop -->
+            <div class="header__logo">
+               <a href="#" class="logo">ENCORE <span class="logo__detail">GYM</span></a>
+            </div>
+            <ul class="header__nav-desktop">
+               <li> <a class="header__link header__link--selector" href="index.html">home</a></li>
+               <li> <a class="header__link" href="classes.html">Classes</a></li>
+               <li> <a class="header__link" href="locations.html">Locations</a></li>
+               <li> <a class="header__link" href="membership.html">Membership</a></li>
+               <li> <a class="header__link modal__btn--open header__link--bg" href="#">contact us</a></li>
+            </ul>
+            <ul class="header__login-ul">
+               <li class="header__nav-log">
+                  <a href="login.html" class="header__link header__link--login">SIGN IN
+                     <div class="header__login-box header__login-box-hide">
+                        <button class="btn login__btn">Sign in</button>
+                        <button class="btn login__btn">New customer</button>
+                     </div>
+                  </a>
+               </li>
+               <li class="header__nav--mode">
+                  <button class="switch">
+                     <span> 
+                        Light
+                     </span>
+                     <span> 
+                        Dark
+                     </span>
+                  </button>
+               </li>
+            </ul>
+            
+         </nav>
+         <!-- Fine from here -->
+         <div class="header__content">
+            <h1 class="header__headline">
+               <span class="header__title">The Encore gym</span>
+               <span class="header__subtitle">where healthy life happens</span>
+            </h1>
+            <a href="#" class="btn btn--main">Join now</a>
+         </div>
+      </header>
+
+      <!-- MAIN -->
+      <main>
+
+         <section class="schedules block divisor">
+            <h2 class="heading-primary">Schedules & hours</h2>
+            <p class="heading-secondary">Check hours and days to find the best time for you!</p>
+
+            <div class="schedule__content">
+
+               <div class="schedule__days">
+                  <h3>HOURS</h3>
+                  <ul class="schedule__ul">
+                     <li class="schedule__item">Monday: 5:00 AM - 12:00 AM</li>
+                     <li class="schedule__item">Tuesday: 24 HRS</li>
+                     <li class="schedule__item">Wednesday: 24 HRS</li>
+                     <li class="schedule__item">Thursday: 5:00 AM - 12:00 AM</li>
+                     <li class="schedule__item">Friday: 7:00 AM - 09:00 PM</li>
+                     <li class="schedule__item">Saturday: 5:00 AM - 12:00</li>
+                     <li class="schedule__item">Sunday: 5:00 AM - 12:00</li>
+                  </ul>
+               </div>
+
+               <div class="schedule__crowd">
+                  <h3>DAILY CROWD</h3>
+
+                  <div class="schedule__inner">
+                     <div class="schedule__inner-top">
+                        <button class="crowd__tab-day crowd__tab-day--1 crowd__tab-day--active" data-tab="1">MON</button>
+                        <button class="crowd__tab-day crowd__tab-day--2" data-tab="2">TUE</button>
+                        <button class="crowd__tab-day crowd__tab-day--3" data-tab="3">WED</button>
+                        <button class="crowd__tab-day crowd__tab-day--4" data-tab="4">THU</button>
+                        <button class="crowd__tab-day crowd__tab-day--5" data-tab="5">FRI</button>
+                        <button class="crowd__tab-day crowd__tab-day--6" data-tab="6">SAT</button>
+                        <button class="crowd__tab-day crowd__tab-day--7" data-tab="7">SUN</button>
+                     </div>
+
+                     <div class="schedule__inner-medium group__bar-1 group__bar--active">
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                     </div>
+
+                     <div class="schedule__inner-medium group__bar-2">
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                     </div>
+                     <div class="schedule__inner-medium group__bar-3">
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                     </div>
+
+                     <div class="schedule__inner-medium group__bar-4">
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                     </div>
+                     <div class="schedule__inner-medium group__bar-5">
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                     </div>
+                     <div class="schedule__inner-medium group__bar-6">
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                     </div>
+                     <div class="schedule__inner-medium group__bar-7">
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                        <div class="crowd__bar-meter"></div>
+                     </div>
+
+                     <div class="schedule__inner-bottom">
+                        <span class="schedule__tab-hour">6AM</span>
+                        <span class="schedule__tab-hour">9AM</span>
+                        <span class="schedule__tab-hour">12PM</span>
+                        <span class="schedule__tab-hour">3PM</span>
+                        <span class="schedule__tab-hour">6PM</span>
+                        <span class="schedule__tab-hour">9PM</span>
+                        <span class="schedule__tab-hour">12AM</span>
+                        <span class="schedule__tab-hour">3AM</span>
+                        <span class="detail__info detail__info--yellow"> * Info collected from the last 7 days</span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <section class="memberships block">
+
+            <h2 class="heading-primary">Memberships</h2>
+            <p class="heading-secondary"
+               >Check out our affordable gym memberships!</p
+            >
+
+            <div class="membership__content">
+
+               <div class="membership__plans membership__plans--gold">
+                  <div class="membership__heading">
+                     <h3 class="membership__title">Gold member</h3>
+                     <h4 class="membership__subtitle">Unlimited locations</h4>
+                  </div>
+
+                  <div class="membership__hero">
+                     <sup>$</sup>
+                     <span class="membership__price">24.99/mo</span>
+                     <span class="membership__disclaimer">plus taxes and fees</span>
+                  </div>
+
+                  <a href="#" class="btn btn--memberships">Select</a>
+
+                  <ul class="membership__ul">
+                     <li class="membership__item">
+                        <svg class="svg__sprite svg__sprite--checkMark">
+                           <use xlink:href="images/icons/_svg/sprite.svg#icon-check"></use>
+                        </svg> 
+                        Unlimited Access to Home Club
+                     </li>
+                     <li class="membership__item">
+                        <svg class="svg__sprite svg__sprite--checkMark">
+                           <use xlink:href="images/icons/_svg/sprite.svg#icon-check"></use>
+                        </svg>
+                        PF App Workouts</li>
+                     <li class="membership__item">
+                        <svg class="svg__sprite svg__sprite--checkMark">
+                           <use xlink:href="images/icons/_svg/sprite.svg#icon-check"></use>
+                        </svg>
+                        Free Fitness Training</li>
+                     <li class="membership__item">
+                        <svg class="svg__sprite svg__sprite--checkMark">
+                           <use xlink:href="images/icons/_svg/sprite.svg#icon-check"></use>
+                        </svg>
+                        Free WiFi</li>
+                     <li class="membership__item">
+                        <svg class="svg__sprite svg__sprite--checkMark">
+                           <use xlink:href="images/icons/_svg/sprite.svg#icon-check"></use>
+                        </svg>
+                        Perks: Partner Rewards & Discounts</li>
+                     <li class="membership__item">
+                        <svg class="svg__sprite svg__sprite--checkMark">
+                           <use xlink:href="images/icons/_svg/sprite.svg#icon-check"></use>
+                        </svg>
+                        Use of Any Planet Fitness Worldwide</li>
+                     <li class="membership__item">
+                        <svg class="svg__sprite svg__sprite--checkMark">
+                           <use xlink:href="images/icons/_svg/sprite.svg#icon-check"></use>
+                        </svg>
+                        Bring a Guest Anytime</li>
+                     <li class="membership__item">
+                        <svg class="svg__sprite svg__sprite--checkMark">
+                           <use xlink:href="images/icons/_svg/sprite.svg#icon-check"></use>
+                        </svg>
+                        Use of HydroMassage</li>
+                     <li class="membership__item">
+                        <svg class="svg__sprite svg__sprite--checkMark">
+                           <use xlink:href="images/icons/_svg/sprite.svg#icon-check"></use>
+                        </svg>
+                        Use of Tanning</li>
+                     <li class="membership__item">
+                        <svg class="svg__sprite svg__sprite--checkMark">
+                           <use xlink:href="images/icons/_svg/sprite.svg#icon-check"></use>
+                        </svg>
+                        Use of Total Body Enhancement</li>
+                     <li class="membership__item">
+                        <svg class="svg__sprite svg__sprite--checkMark">
+                           <use xlink:href="images/icons/_svg/sprite.svg#icon-check"></use>
+                        </svg>
+                        Use of Massage Chairs</li>
+                     <li class="membership__item">
+                        <svg class="svg__sprite svg__sprite--checkMark">
+                           <use xlink:href="images/icons/_svg/sprite.svg#icon-check"></use>
+                        </svg>
+                        50% Off Select Drinks</li>
+                     <li class="membership__item">
+                        <svg class="svg__sprite svg__sprite--checkMark">
+                           <use xlink:href="images/icons/_svg/sprite.svg#icon-check"></use>
+                        </svg>
+                        Premium Perks: Partner & Rewards Discounts</li>
+                  </ul>
+               </div>
+
+               <div class="membership__plans membership__plans--classic">
+                  <div class="membership__heading">
+                     <h3 class="membership__title">Classic</h3>
+                     <h4 class="membership__subtitle">Limited locations</h4>
+                  </div>
+
+                  <div class="membership__hero">
+                     <sup>$</sup>
+                     <span class="membership__price">10/mo</span>
+                     <span class="membership__disclaimer">plus taxes and fees</span>
+                  </div>
+
+                  <a href="#" class="btn btn--memberships">Select</a>
+
+                  <ul class="membership__ul">
+                     <li class="membership__item"><svg class="svg__sprite svg__sprite--checkMark">
+                           <use xlink:href="images/icons/_svg/sprite.svg#icon-check"></use>
+                        </svg>Unlimited Access to Home Club</li>
+                     <li class="membership__item"><svg class="svg__sprite svg__sprite--checkMark">
+                           <use xlink:href="images/icons/_svg/sprite.svg#icon-check"></use>
+                        </svg>PF App Workouts</li>
+                     <li class="membership__item"><svg class="svg__sprite svg__sprite--checkMark">
+                           <use xlink:href="images/icons/_svg/sprite.svg#icon-check"></use>
+                        </svg>Free Fitness Training</li>
+                     <li class="membership__item"><svg class="svg__sprite svg__sprite--checkMark">
+                           <use xlink:href="images/icons/_svg/sprite.svg#icon-check"></use>
+                        </svg>Free WiFi</li>
+                     <li class="membership__item"><svg class="svg__sprite svg__sprite--checkMark">
+                           <use xlink:href="images/icons/_svg/sprite.svg#icon-check"></use>
+                        </svg>Perks: Partner Rewards & Discounts</li>
+                     <li class="membership__item opacity"> <s> Use of Any Planet Fitness Worldwide </s></li>
+                     <li class="membership__item opacity"> <s> Bring a Guest Anytime</s></li>
+                     <li class="membership__item opacity"> <s> Use of HydroMassage</s></li>
+                     <li class="membership__item opacity"> <s> Use of Tanning</s></li>
+                     <li class="membership__item opacity"> <s> Use of Total Body Enhancement</s></li>
+                     <li class="membership__item opacity"> <s> Use of Massage Chairs</s></li>
+                     <li class="membership__item opacity"> <s> 50% Off Select Drinks</s></li>
+                     <li class="membership__item opacity"> <s> Premium Perks: Partner & Rewards Discounts</s></li>
+                  </ul>
+               </div>
+            </div>
+         </section>
+
+         <div class="huincha block">
+               <div class="huincha__content">
+                  <h2 class="huincha__title">⚡⚡ Flash promotion ⚡⚡</h2>
+                   <p class="huincha__info"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat facilis beatae odit odio dolores eos facere rem, officiis assumenda amet quam qui modi omnis! se odit odio dolores eos facere rem, officiis assumenda amet quam qui mod.</p>
+               </div>
+         </div>
+
+         <section class="background-video block ">
+            
+            <h2 class="heading-primary">All you need</h2>
+            <p class="heading-secondary">In one place!</p>
+
+            <div class="background-video__content">
+               <video class="video__background" autoplay muted loop>
+                  <source src="videos/promo.mp4" type="video/mp4" />
+               </video>
+            </div>
+         </section>
+
+         <section class="gallery block divisor">
+
+            <div class="gallery__grid">
+               <div class="gallery__element">
+                  <div class="gallery__photos">
+                     <img src="/images/banners/gallery-1.jpg" alt="" />
+                  </div>
+                  <div class="gallery__info">
+                     <h5 class="info__title">Pilates</h5>
+                     <p class="info__text">Concentrates on strengthening the body with an emphasis on core strength.</p>
+                  </div>
+               </div>
+               <div class="gallery__element">
+                  <div class="gallery__photos">
+                     <img src="/images/banners/gallery-2.jpg" alt="" />
+                  </div>
+                  <div class="gallery__info">
+                     <h5 class="info__title">Cardio</h5>
+                     <p class="info__text">Is any rhythmic activity that raises your heart rate into your target heart rate zone.</p>
+                  </div>
+               </div>
+               <div class="gallery__element">
+                  <div class="gallery__photos">
+                     <img src="/images/banners/gallery-3.jpg" alt="" />
+                  </div>
+                  <div class="gallery__info">
+                     <h5 class="info__title">Hard work</h5>
+                     <p class="info__text">Once you are exercising regularly, the hardest thing is to stop it.</p>
+                  </div>
+               </div>
+               <div class="gallery__element">
+                  <div class="gallery__photos">
+                     <img src="/images/banners/gallery-4.jpg" alt="" />
+                  </div>
+                  <div class="gallery__info">
+                     <h5 class="info__title">Private training</h5>
+                     <p class="info__text">Private classes and customized excersices for you.</p>
+                  </div>
+               </div>
+               <div class="gallery__element">
+                  <div class="gallery__photos">
+                     <img src="/images/banners/gallery-5.jpg" alt="" />
+                  </div>
+                  <div class="gallery__info">
+                     <h5 class="info__title">Crossfit</h5>
+                     <p class="info__text">A form of high intensity interval training.</p>
+                  </div>
+               </div>
+               <div class="gallery__element">
+                  <div class="gallery__photos">
+                     <img src="/images/banners/gallery-6.jpg" alt="" />
+                  </div>
+                  <div class="gallery__info">
+                     <h5 class="info__title">Yoga classes</h5>
+                     <p class="info__text">Focus on stretching, flexibility and learning simple poses.</p>
+                  </div>
+               </div>
+               <div class="gallery__element">
+                  <div class="gallery__photos">
+                     <img src="/images/banners/gallery-7.jpg" alt="" />
+                  </div>
+                  <div class="gallery__info">
+                     <h5 class="info__title">Crossfit PRO</h5>
+                     <p class="info__text"> More intense and highly hard work.</p>
+                  </div>
+               </div>
+               <div class="gallery__element">
+                  <div class="gallery__photos">
+                     <img src="/images/banners/gallery-9.jpg" alt="" />
+                  </div>
+                  <div class="gallery__info">
+                     <h5 class="info__title">Equipment</h5>
+                     <p class="info__text">All the equipment needed to achieve your goals.</p>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <section class="feed block">
+            <h2 class="heading-primary">Hall of fame </h2>
+            <p class="heading-secondary">Share your experiences with us and be part of hour hall of fame, tag us on instagram at @encoregym
+
+            <div class="feed__carrousel">
+               <div class="feed__slider feed__slider--1">
+                  <div class="feed__slider-section feed__slider-section-1">
+                     <div class="feed__space"></div>
+                     <div class="feed__post feed__post-item-1">
+                        <div class="feed_photo">
+                           <img src="images/banners/testimony-1.png" alt="lorem ipsum dolor sit amet " />
+                        </div>
+                        <h3 class="feed_user">@luis.clancy_3</h3>
+                     </div>
+                     <div class="feed__post feed__post-item-2">
+                        <div class="feed_photo">
+                           <img src="images/banners/testimony-3.png" alt="lorem ipsum dolor sit amet " />         </div>
+                        <h3 class="feed_user">@andrea.CUL8R</h3>                     
+                     </div>
+                     <div class="feed__post feed__post-item-3">
+                        <div class="feed_photo">
+                           <img src="images/banners/testimony-6.png" alt="lorem ipsum dolor sit amet " />
+                        </div>
+                        <h3 class="feed_user">@dollyjuan</h3>                     
+                     </div>
+                     <div class="feed__space"></div>
+                  </div>
+               </div>
+
+               <div class="feed__slider feed__slider--2">
+                  <div class="feed__slider-section feed__slider-section-2">
+                     <div class="feed__space"></div>
+                     <div class="feed__post feed__post-item-1">
+                        <div class="feed_photo">
+                           <img src="images/banners/testimony-2.png" alt="lorem ipsum dolor sit amet " />
+                        </div>
+                        <h3 class="feed_user">@brando.hug</h3>
+                     </div>
+                     <div class="feed__post feed__post-item-2">
+                        <div class="feed_photo">
+                           <img src="images/banners/testimony-4.png" alt="lorem ipsum dolor sit amet " />         </div>
+                        <h3 class="feed_user">@hug_whiskers</h3>                     
+                     </div>
+                     <div class="feed__post feed__post-item-3">
+                        <div class="feed_photo">
+                           <img src="images/banners/testimony-5.png" alt="lorem ipsum dolor sit amet " />
+                        </div>
+                        <h3 class="feed_user">@georgeclyde</h3>                     
+                     </div>
+                     <div class="feed__space"></div>
+                  </div>
+               </div>
+
+               <div class="feed__slider feed__slider--3">
+                  <div class="feed__slider-section feed__slider-section-3">
+                     <div class="feed__space"></div>
+                     <div class="feed__post feed__post-item-1">
+                        <div class="feed_photo">
+                           <img src="images/banners/testimony-9.png" alt="lorem ipsum dolor sit amet " />
+                        </div>
+                        <h3 class="feed_user">@elliotsussan</h3>
+                     </div>
+                     <div class="feed__post feed__post-item-2">
+                        <div class="feed_photo">
+                           <img src="images/banners/testimony-7.png" alt="lorem ipsum dolor sit amet " />         </div>
+                        <h3 class="feed_user">@heri_bosco</h3>                     
+                     </div>
+                     <div class="feed__post feed__post-item-3">
+                        <div class="feed_photo">
+                           <img src="images/banners/testimony-8.png" alt="lorem ipsum dolor sit amet " />
+                        </div>
+                        <h3 class="feed_user">@tobie.wido</h3>                     
+                     </div>
+                     <div class="feed__space"></div>
+                  </div>
+               </div>
+               <button class="btn feed_btn feed_btn--left">&lt;</button>
+               <button class="btn feed_btn feed_btn--right">&gt;</button>
+            </div>
+          
+         </section>
+      </main>
+
+      <!-- MODAL CONTACT -->
+      <div class="modal modal__hidden">
+         <button class="modal__btn--close">&times;</button>
+         <form class="modal__form">
+            <div class="modal__row">
+               <span class="row__title">email Us</span>
+               <div class="row__mail">
+                  <a class="row__maills" href="mailto:testing@gmail.com">info@encore.com</a>
+                  <a class="row__maills" href="mailto:testing@gmail.com">concierge@encore.com</a>
+               </div>
+            </div>
+            <div class="modal__row">
+               <span class="row__title">Say hello</span>
+               <div class="row__socials">
+                     <a href="#">
+                        <svg class="svg__sprite svg__sprite--instagram">
+                           <use xlink:href="images/icons/_svg/sprite.svg#icon-instagram"></use>
+                         </svg>
+                     </a>
+                     <a href="#">
+                        <svg class="svg__sprite svg__sprite--linkedin">
+                           <use xlink:href="images/icons/_svg/sprite.svg#icon-linkedin"></use>
+                         </svg> 
+                     </a>
+                     <a href="#">
+                        <svg class="svg__sprite svg__sprite--twitter">
+                           <use xlink:href="images/icons/_svg/sprite.svg#icon-twitter"></use>
+                         </svg> 
+                     </a>
+                     <a href="#">
+                        <svg class="svg__sprite svg__sprite--whatsapp">
+                           <use xlink:href="images/icons/_svg/sprite.svg#icon-whatsapp"></use>
+                         </svg> 
+                     </a>
+                     <a href="#">
+                        <svg class="svg__sprite svg__sprite--facebook">
+                           <use xlink:href="images/icons/_svg/sprite.svg#icon-facebook2"></use>
+                         </svg> 
+                     </a>
+                     <a href="#">
+                        <svg class="svg__sprite svg__sprite--youtube">
+                           <use xlink:href="images/icons/_svg/sprite.svg#icon-youtube"></use>
+                         </svg> 
+                     </a>
+               </div>
+            </div>
+
+            <div class="modal__row">
+               <span class="row__title">Call us</span>
+
+               <div class="modal__grid">
+               <div class="row__phones">
+                  <p class="row__address"> 1160 Louder Miami, FL, 365 United States</p>
+                  <a class="row__phone" href="#">(786) 497-8200</a>
+               </div>
+               <div class="row__phones">
+                  <p class="row__address"> 660 Way Miami, FL, United States</p>
+                  <a class="row__phone" href="#">(786) 497-8200</a>
+               </div>
+               <div class="row__phones">
+                  <p class="row__address"> 4660 Coral Miami, FL, 33325 United States</p>
+                  <a class="row__phone" href="#">(786) 497-8200</a>
+               </div>
+               <div class="row__phones">
+                  <p class="row__address"> 9660 Coral Way Miami, FL, 33165 United States</p>
+                  <a class="row__phone" href="#">(786) 497-8200</a>
+               </div>
+               <div class="row__phones">
+                  <p class="row__address"> 12 Coral Hall Miami, FL, United States</p>
+                  <a class="row__phone" href="#">(786) 497-8200</a>
+               </div>
+               <div class="row__phones">
+                  <p class="row__address"> 345 Dolphin Miami, FL, 33165 United States</p>
+                  <a class="row__phone" href="#">(786) 497-8200</a>
+               </div>
+            </div>
+            </div>
+         </form>
+      </div>
+      <div class="modal__overlay modal__hidden "></div>
+
+      <div class="newsletter block">
+         <div class="newsletter__content">
+               <h2 class="newsletter__title">Subscribe to our newsletter</h2>
+               <div class="newsletter__form">
+                  <input class="newsletter__input"
+                     type="email"
+                     name="email"
+                     id="email"
+                     required
+                     pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                     placeholder="Enter your email"
+                  />
+                  <button class="newsletter__button">Subscribe</button>
+               </div>
+               <p class="newsletter__text">You will receive a welcoming email</p>
+         </div>
+      </div>
+
+          <!-- Hook up -->
+    <div id="button-up">
+      <svg class="svg__sprite svg__sprite--hookUp">
+         <use xlink:href="images/icons/_svg/sprite.svg#icon-circle-up"></use>
+       </svg>
+    </div>
+
+      <footer class="footer block">
+         <div class="footer__content">
+
+               <ul class="footer__nav">
+                  <li class="footer__item"> <a href="work.html">Work</a></li>
+                  <li class="footer__item"> <a href="about.html">About us</a></li>
+                  <li class="footer__item"> <a href="privacy.html">Privacy</a></li>
+                  <li class="footer__item"> <a href="policies.html">Policies</a></li>
+                  <li class="footer__item modal__btn--open"> <a href="#">Contact us</a></li>
+               </ul>
+
+            <div class="footer__logo">
+               <a href="#" class="logo">ENCORE</a>
+            </div>
+
+            <div class="footer__social">
+               <li class="footer__item">
+                  <a class="footer__link" href="#">
+                     <svg class="svg__sprite svg__sprite--instagram">
+                        <use xlink:href="images/icons/_svg/sprite.svg#icon-instagram"></use>
+                      </svg>
+                  </a>
+               </li>
+               <li class="footer__item">
+                  <a class="footer__link" href="#">
+                     <svg class="svg__sprite svg__sprite--facebook">
+                        <use xlink:href="images/icons/_svg/sprite.svg#icon-facebook2"></use>
+                      </svg>
+                  </a>
+               </li>
+               <li class="footer__item">
+                  <a class="footer__link" href="#">
+                     <svg class="svg__sprite svg__sprite--youtube">
+                        <use xlink:href="images/icons/_svg/sprite.svg#icon-youtube"></use>
+                      </svg>
+                  </a>
+               </li>
+            </div>
+
+            <p class="footer__copy">Encore gym website @2022 by: &nbsp; &nbsp;<a href="https://github.com/Widoguaiquirian">Luis Guaiquirian</a></p>
+         </div>
+      </footer>
+      <script src="javascript/script.js"></script>
+      <script src="javascript/home.js"></script>
+   </body>
+</html>

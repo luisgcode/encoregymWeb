@@ -1,0 +1,90 @@
+.account {
+   background-color: var(--color-secondary);
+   border-radius: 5px;
+   color: var(--color-tertiary);
+   display: flex;
+   justify-content: center;
+   padding: 5rem;
+}
+
+.heading-primary--account {
+   border-bottom: 2px solid var(--color-primary);
+   padding: 0;
+}
+
+.primary__text {
+   color: var(--color-tertiary);
+   display: block;
+   font-size: 1.6rem;
+   font-weight: normal;
+   margin-bottom: 3rem;
+   text-transform: none;
+}
+
+.account__block {
+   margin: 0 4rem;
+   text-align: left;
+   width: 600px;
+}
+
+.account__form {
+   width: 90%;
+}
+
+.account__row {
+   margin: 1rem 0;
+}
+
+.account__input {
+   border-radius: 5px;
+   border: none;
+   padding: 1rem;
+   width: 100%;
+}
+
+.account__item {
+   font-weight: bold;
+   list-style: circle;
+   padding: 0.2rem 0;
+   text-align: left;
+}
+
+.link__password {
+   color: var(--color-tertiary);
+   font-size: 1.4rem;
+   margin-left: 2rem;
+   text-decoration: underline;
+}
+
+.account__input--checkbox {
+   margin-right: 1rem;
+   width: fit-content;
+}
+
+.account__label--checkbox {
+   font-size: 1.6rem;
+}
+
+@media (max-width: 1050px) {
+   .account {
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      padding: 2rem;
+      width: 95%;
+   }
+
+   .account__block {
+      margin: 0 0 8rem 0;
+      max-width: 95%;
+   }
+
+   .primary__text {
+      font-size: 1.6rem;
+      margin-bottom: 2rem;
+   }
+
+   .account__form {
+      width: 100%;
+   }
+}
