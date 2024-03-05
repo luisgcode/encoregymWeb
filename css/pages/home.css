@@ -5,7 +5,7 @@
       rgba(0, 0, 0, 0.884) 20%,
       rgba(255, 255, 255, 0)
     ),
-    url(images/sliders/hero-images.jpg);
+    url(../../images/sliders/hero-images.jpg);
   background-position: 70%;
   background-repeat: no-repeat;
   background-size: cover;
