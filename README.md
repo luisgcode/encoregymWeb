@@ -19,3 +19,6 @@ Responsive website with functional links.
 - 🧑‍💻 Instagram: https://www.instagram.com/luisgcode/ 🧑‍💻
 
 ## 📜 Screenshots 📜
+
+![alt text](image.png)
+![alt text](image-1.png)
