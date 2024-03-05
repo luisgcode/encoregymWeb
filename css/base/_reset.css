@@ -2,41 +2,6 @@
   box-sizing: border-box;
 }
 
-/* body {
-  background-color: red;
-} */
-
-img {
-  max-width: 100%;
-}
-
-ul,
-li {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-/*missing alt attribute*/
-img:not([alt]) {
-  outline: 5px dashed red;
-  outline-offset: 5px;
-}
-
-/*empty alt attribute*/
-img[alt=""] {
-  outline: 5px solid blue;
-  outline-offset: 15px;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-size: 62.5%;
-}
-
 body {
   background-color: var(--color-tertiary);
   margin: 0 auto;
