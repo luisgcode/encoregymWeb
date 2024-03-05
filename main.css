@@ -9,7 +9,8 @@
 @import url(components/_buttons.css);
 @import url(components/_cookie-message.css);
 @import url(components/_dark-mode.css);
-@import url(components/_desktop-nav.css);
+/* @import url(components/_desktop-nav.css); */
+@import url(_desktop-nav.css);
 @import url(components/_hook-up.css);
 @import url(components/_huincha.css);
 @import url(components/_login-modal.css);
