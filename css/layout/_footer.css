@@ -1,0 +1,37 @@
+/* Footer */
+.footer {
+   background-color: #1f2123;
+   margin: 0;
+}
+
+.footer__content {
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   width: 100%;
+}
+
+.footer__nav {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 2rem;
+   max-width: 90%;
+   width: 360px;
+}
+
+.footer__social {
+   display: flex;
+   margin: 2rem 0;
+}
+
+.footer__social .footer__item {
+   font-size: 3rem;
+   margin: 0 2rem;
+}
+
+.footer__copy {
+   font-size: 1rem;
+   letter-spacing: 2px;
+   text-transform: uppercase;
+}

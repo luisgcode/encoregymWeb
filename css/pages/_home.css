@@ -1,0 +1,1052 @@
+/* Unico para el home */
+.header--home {
+   background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.884) 20%, rgba(255, 255, 255, 0)),
+      url(/images/sliders/hero-images.jpg);
+   background-position: 70%;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 95vh;
+   margin: 0 auto;
+   max-height: 900px;
+   max-width: 180rem;
+   position: relative;
+}
+
+/* HERO HEADER SECTION */
+.header__content {
+   left: 50%;
+   max-width: 90%;
+   position: absolute;
+   text-align: center;
+   text-align: center;
+   text-transform: uppercase;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   width: 100%;
+}
+
+.header__title {
+   animation: moveInLeft 1s ease-in-out;
+   color: var(--color-primary);
+   display: block;
+   font-size: 7rem;
+   margin: 0 auto;
+   text-shadow: 1px 2px 3px rgba(221, 221, 221, 0.555);
+}
+
+.header__subtitle {
+   animation: moveInRight 1s ease-in-out;
+   color: var(--color-secondary-strong);
+   font-size: 3rem;
+   font-weight: 500;
+   letter-spacing: 0.3rem;
+   margin: 0 auto;
+}
+
+/* SCHEDULE SECTION BIG*/
+.schedule__content {
+   display: flex;
+   justify-content: center;
+}
+
+/* left side */
+.schedule__days {
+   margin-right: 5rem;
+}
+
+.schedule__item {
+   text-align: left;
+}
+
+/* right side */
+
+.schedule__inner .schedule__inner-top {
+   border-bottom: 3px solid var(--color-primary);
+   padding-bottom: 1rem;
+}
+
+.schedule__inner-top .crowd__tab-day {
+   background-color: transparent;
+   border: none;
+   color: white;
+   cursor: pointer;
+   margin: 0 2rem;
+}
+
+.schedule__inner-top .crowd__tab-day--active {
+   background-color: var(--color-primary);
+   border-radius: 3px;
+   transition: all 0.5s ease;
+}
+
+/* OCULTAR LOS QUE NO ESTEN ACTIVE */
+.schedule__inner-medium {
+   display: none;
+}
+
+.group__bar--active {
+   align-items: flex-end;
+   border-bottom: 2px dashed var(--color-primary);
+   display: flex;
+   justify-content: space-around;
+   margin: 0.8rem 0;
+   min-height: 110px;
+   padding-bottom: 0.5rem;
+}
+
+.schedule__inner-bottom {
+   position: relative;
+}
+
+.detail__info--yellow {
+   bottom: -30px;
+   color: var(--color-info);
+}
+
+.schedule__inner-bottom .schedule__tab-hour {
+   margin: 0 2rem;
+}
+
+/* BAR LINES */
+.crowd__bar-meter {
+   background-image: linear-gradient(rgba(255, 166, 0, 0.753) 10%, white);
+   border-radius: 3px;
+   height: 10rem;
+   margin: 0 0.4rem;
+   width: 2rem;
+}
+
+/* ? DAY 1 */
+.group__bar-1 .crowd__bar-meter:nth-child(1) {
+   height: 1rem;
+}
+
+.group__bar-1 .crowd__bar-meter:nth-child(2) {
+   height: 4rem;
+}
+
+.group__bar-1 .crowd__bar-meter:nth-child(3) {
+   height: 5rem;
+}
+
+.group__bar-1 .crowd__bar-meter:nth-child(4) {
+   height: 5rem;
+}
+
+.group__bar-1 .crowd__bar-meter:nth-child(5) {
+   height: 7rem;
+}
+
+.group__bar-1 .crowd__bar-meter:nth-child(6) {
+   height: 6rem;
+}
+
+.group__bar-1 .crowd__bar-meter:nth-child(7) {
+   height: 6rem;
+}
+
+.group__bar-1 .crowd__bar-meter:nth-child(8) {
+   height: 3rem;
+}
+
+.group__bar-1 .crowd__bar-meter:nth-child(9) {
+   height: 4rem;
+}
+
+.group__bar-1 .crowd__bar-meter:nth-child(10) {
+   height: 5rem;
+}
+
+.group__bar-1 .crowd__bar-meter:nth-child(11) {
+   height: 7rem;
+}
+
+.group__bar-1 .crowd__bar-meter:nth-child(12) {
+   height: 8rem;
+}
+
+.group__bar-1 .crowd__bar-meter:nth-child(13) {
+   height: 9rem;
+}
+
+.group__bar-1 .crowd__bar-meter:nth-child(14) {
+   height: 9rem;
+}
+
+.group__bar-1 .crowd__bar-meter:nth-child(15) {
+   height: 8rem;
+}
+
+.group__bar-1 .crowd__bar-meter:nth-child(16) {
+   height: 7rem;
+}
+
+.group__bar-1 .crowd__bar-meter:nth-child(17) {
+   height: 10rem;
+}
+
+.group__bar-1 .crowd__bar-meter:nth-child(18) {
+   height: 7rem;
+}
+
+.group__bar-1 .crowd__bar-meter:nth-child(19) {
+   height: 8rem;
+}
+
+.group__bar-1 .crowd__bar-meter:nth-child(20) {
+   height: 1rem;
+}
+
+.group__bar-1 .crowd__bar-meter:nth-child(21) {
+   height: 0.5rem;
+}
+
+.group__bar-1 .crowd__bar-meter:nth-child(22) {
+   height: 0.5rem;
+}
+
+.group__bar-1 .crowd__bar-meter:nth-child(23) {
+   height: 0.5rem;
+}
+
+.group__bar-1 .crowd__bar-meter:nth-child(24) {
+   height: 0.5rem;
+}
+
+/* ? DAY 2 */
+.group__bar-2 .crowd__bar-meter:nth-child(1) {
+   height: 1rem;
+}
+
+.group__bar-2 .crowd__bar-meter:nth-child(2) {
+   height: 5rem;
+}
+
+.group__bar-2 .crowd__bar-meter:nth-child(3) {
+   height: 5rem;
+}
+
+.group__bar-2 .crowd__bar-meter:nth-child(4) {
+   height: 6rem;
+}
+
+.group__bar-2 .crowd__bar-meter:nth-child(5) {
+   height: 8rem;
+}
+
+.group__bar-2 .crowd__bar-meter:nth-child(6) {
+   height: 6rem;
+}
+
+.group__bar-2 .crowd__bar-meter:nth-child(7) {
+   height: 5rem;
+}
+
+.group__bar-2 .crowd__bar-meter:nth-child(8) {
+   height: 4rem;
+}
+
+.group__bar-2 .crowd__bar-meter:nth-child(9) {
+   height: 3rem;
+}
+
+.group__bar-2 .crowd__bar-meter:nth-child(10) {
+   height: 3rem;
+}
+
+.group__bar-2 .crowd__bar-meter:nth-child(11) {
+   height: 5rem;
+}
+
+.group__bar-2 .crowd__bar-meter:nth-child(12) {
+   height: 4rem;
+}
+
+.group__bar-2 .crowd__bar-meter:nth-child(13) {
+   height: 9rem;
+}
+
+.group__bar-2 .crowd__bar-meter:nth-child(14) {
+   height: 9rem;
+}
+
+.group__bar-2 .crowd__bar-meter:nth-child(15) {
+   height: 8rem;
+}
+
+.group__bar-2 .crowd__bar-meter:nth-child(16) {
+   height: 8rem;
+}
+
+.group__bar-2 .crowd__bar-meter:nth-child(17) {
+   height: 7rem;
+}
+
+.group__bar-2 .crowd__bar-meter:nth-child(18) {
+   height: 7rem;
+}
+
+.group__bar-2 .crowd__bar-meter:nth-child(19) {
+   height: 4rem;
+}
+
+.group__bar-2 .crowd__bar-meter:nth-child(20) {
+   height: 2rem;
+}
+
+.group__bar-2 .crowd__bar-meter:nth-child(21) {
+   height: 0.5rem;
+}
+
+.group__bar-2 .crowd__bar-meter:nth-child(22) {
+   height: 0.5rem;
+}
+
+.group__bar-2 .crowd__bar-meter:nth-child(23) {
+   height: 0.5rem;
+}
+
+.group__bar-2 .crowd__bar-meter:nth-child(24) {
+   height: 0.5rem;
+}
+
+/* ? DAY 3 */
+.group__bar-3 .crowd__bar-meter:nth-child(1) {
+   height: 1rem;
+}
+
+.group__bar-3 .crowd__bar-meter:nth-child(2) {
+   height: 5rem;
+}
+
+.group__bar-3 .crowd__bar-meter:nth-child(3) {
+   height: 3rem;
+}
+
+.group__bar-3 .crowd__bar-meter:nth-child(4) {
+   height: 5rem;
+}
+
+.group__bar-3 .crowd__bar-meter:nth-child(5) {
+   height: 5rem;
+}
+
+.group__bar-3 .crowd__bar-meter:nth-child(6) {
+   height: 5rem;
+}
+
+.group__bar-3 .crowd__bar-meter:nth-child(7) {
+   height: 5rem;
+}
+
+.group__bar-3 .crowd__bar-meter:nth-child(8) {
+   height: 2rem;
+}
+
+.group__bar-3 .crowd__bar-meter:nth-child(9) {
+   height: 3rem;
+}
+
+.group__bar-3 .crowd__bar-meter:nth-child(10) {
+   height: 4rem;
+}
+
+.group__bar-3 .crowd__bar-meter:nth-child(11) {
+   height: 4rem;
+}
+
+.group__bar-3 .crowd__bar-meter:nth-child(12) {
+   height: 4rem;
+}
+
+.group__bar-3 .crowd__bar-meter:nth-child(13) {
+   height: 9rem;
+}
+
+.group__bar-3 .crowd__bar-meter:nth-child(14) {
+   height: 7rem;
+}
+
+.group__bar-3 .crowd__bar-meter:nth-child(15) {
+   height: 8rem;
+}
+
+.group__bar-3 .crowd__bar-meter:nth-child(16) {
+   height: 6rem;
+}
+
+.group__bar-3 .crowd__bar-meter:nth-child(17) {
+   height: 7rem;
+}
+
+.group__bar-3 .crowd__bar-meter:nth-child(18) {
+   height: 4rem;
+}
+
+.group__bar-3 .crowd__bar-meter:nth-child(19) {
+   height: 5rem;
+}
+
+.group__bar-3 .crowd__bar-meter:nth-child(20) {
+   height: 2rem;
+}
+
+.group__bar-3 .crowd__bar-meter:nth-child(21) {
+   height: 0.5rem;
+}
+
+.group__bar-3 .crowd__bar-meter:nth-child(22) {
+   height: 0.5rem;
+}
+
+.group__bar-3 .crowd__bar-meter:nth-child(23) {
+   height: 0.5rem;
+}
+
+.group__bar-3 .crowd__bar-meter:nth-child(24) {
+   height: 0.5rem;
+}
+
+/* ? DAY 4 */
+.group__bar-4 .crowd__bar-meter:nth-child(1) {
+   height: 1rem;
+}
+
+.group__bar-4 .crowd__bar-meter:nth-child(2) {
+   height: 5rem;
+}
+
+.group__bar-4 .crowd__bar-meter:nth-child(3) {
+   height: 2rem;
+}
+
+.group__bar-4 .crowd__bar-meter:nth-child(4) {
+   height: 4rem;
+}
+
+.group__bar-4 .crowd__bar-meter:nth-child(5) {
+   height: 5rem;
+}
+
+.group__bar-4 .crowd__bar-meter:nth-child(6) {
+   height: 5rem;
+}
+
+.group__bar-4 .crowd__bar-meter:nth-child(7) {
+   height: 8rem;
+}
+
+.group__bar-4 .crowd__bar-meter:nth-child(8) {
+   height: 5rem;
+}
+
+.group__bar-4 .crowd__bar-meter:nth-child(9) {
+   height: 5rem;
+}
+
+.group__bar-4 .crowd__bar-meter:nth-child(10) {
+   height: 7rem;
+}
+
+.group__bar-4 .crowd__bar-meter:nth-child(11) {
+   height: 7rem;
+}
+
+.group__bar-4 .crowd__bar-meter:nth-child(12) {
+   height: 7rem;
+}
+
+.group__bar-4 .crowd__bar-meter:nth-child(13) {
+   height: 9rem;
+}
+
+.group__bar-4 .crowd__bar-meter:nth-child(14) {
+   height: 7rem;
+}
+
+.group__bar-4 .crowd__bar-meter:nth-child(15) {
+   height: 8rem;
+}
+
+.group__bar-4 .crowd__bar-meter:nth-child(16) {
+   height: 4rem;
+}
+
+.group__bar-4 .crowd__bar-meter:nth-child(17) {
+   height: 7rem;
+}
+
+.group__bar-4 .crowd__bar-meter:nth-child(18) {
+   height: 4rem;
+}
+
+.group__bar-4 .crowd__bar-meter:nth-child(19) {
+   height: 3rem;
+}
+
+.group__bar-4 .crowd__bar-meter:nth-child(20) {
+   height: 1rem;
+}
+
+.group__bar-4 .crowd__bar-meter:nth-child(21) {
+   height: 0.5rem;
+}
+
+.group__bar-4 .crowd__bar-meter:nth-child(22) {
+   height: 0.5rem;
+}
+
+.group__bar-4 .crowd__bar-meter:nth-child(23) {
+   height: 0.5rem;
+}
+
+.group__bar-4 .crowd__bar-meter:nth-child(24) {
+   height: 0.5rem;
+}
+
+/* ? DAY 5 */
+.group__bar-5 .crowd__bar-meter:nth-child(1) {
+   height: 1rem;
+}
+
+.group__bar-5 .crowd__bar-meter:nth-child(2) {
+   height: 3rem;
+}
+
+.group__bar-5 .crowd__bar-meter:nth-child(3) {
+   height: 1rem;
+}
+
+.group__bar-5 .crowd__bar-meter:nth-child(4) {
+   height: 4rem;
+}
+
+.group__bar-5 .crowd__bar-meter:nth-child(5) {
+   height: 5rem;
+}
+
+.group__bar-5 .crowd__bar-meter:nth-child(6) {
+   height: 3rem;
+}
+
+.group__bar-5 .crowd__bar-meter:nth-child(7) {
+   height: 5rem;
+}
+
+.group__bar-5 .crowd__bar-meter:nth-child(8) {
+   height: 5rem;
+}
+
+.group__bar-5 .crowd__bar-meter:nth-child(9) {
+   height: 5rem;
+}
+
+.group__bar-5 .crowd__bar-meter:nth-child(10) {
+   height: 7rem;
+}
+
+.group__bar-5 .crowd__bar-meter:nth-child(11) {
+   height: 6rem;
+}
+
+.group__bar-5 .crowd__bar-meter:nth-child(12) {
+   height: 8rem;
+}
+
+.group__bar-5 .crowd__bar-meter:nth-child(13) {
+   height: 8rem;
+}
+
+.group__bar-5 .crowd__bar-meter:nth-child(14) {
+   height: 8rem;
+}
+
+.group__bar-5 .crowd__bar-meter:nth-child(15) {
+   height: 8rem;
+}
+
+.group__bar-5 .crowd__bar-meter:nth-child(16) {
+   height: 8rem;
+}
+
+.group__bar-5 .crowd__bar-meter:nth-child(17) {
+   height: 8rem;
+}
+
+.group__bar-5 .crowd__bar-meter:nth-child(18) {
+   height: 6rem;
+}
+
+.group__bar-5 .crowd__bar-meter:nth-child(19) {
+   height: 6rem;
+}
+
+.group__bar-5 .crowd__bar-meter:nth-child(20) {
+   height: 6rem;
+}
+
+.group__bar-5 .crowd__bar-meter:nth-child(21) {
+   height: 0.5rem;
+}
+
+.group__bar-5 .crowd__bar-meter:nth-child(22) {
+   height: 0.5rem;
+}
+
+.group__bar-5 .crowd__bar-meter:nth-child(23) {
+   height: 0.5rem;
+}
+
+.group__bar-5 .crowd__bar-meter:nth-child(24) {
+   height: 0.5rem;
+}
+
+/* ? DAY 6 */
+.group__bar-6 .crowd__bar-meter:nth-child(1) {
+   height: 1rem;
+}
+
+.group__bar-6 .crowd__bar-meter:nth-child(2) {
+   height: 5rem;
+}
+
+.group__bar-6 .crowd__bar-meter:nth-child(3) {
+   height: 3rem;
+}
+
+.group__bar-6 .crowd__bar-meter:nth-child(4) {
+   height: 5rem;
+}
+
+.group__bar-6 .crowd__bar-meter:nth-child(5) {
+   height: 5rem;
+}
+
+.group__bar-6 .crowd__bar-meter:nth-child(6) {
+   height: 5rem;
+}
+
+.group__bar-6 .crowd__bar-meter:nth-child(7) {
+   height: 5rem;
+}
+
+.group__bar-6 .crowd__bar-meter:nth-child(8) {
+   height: 2rem;
+}
+
+.group__bar-6 .crowd__bar-meter:nth-child(9) {
+   height: 3rem;
+}
+
+.group__bar-6 .crowd__bar-meter:nth-child(10) {
+   height: 6rem;
+}
+
+.group__bar-6 .crowd__bar-meter:nth-child(11) {
+   height: 6rem;
+}
+
+.group__bar-6 .crowd__bar-meter:nth-child(12) {
+   height: 6rem;
+}
+
+.group__bar-6 .crowd__bar-meter:nth-child(13) {
+   height: 9rem;
+}
+
+.group__bar-6 .crowd__bar-meter:nth-child(14) {
+   height: 7rem;
+}
+
+.group__bar-6 .crowd__bar-meter:nth-child(15) {
+   height: 8rem;
+}
+
+.group__bar-6 .crowd__bar-meter:nth-child(16) {
+   height: 6rem;
+}
+
+.group__bar-6 .crowd__bar-meter:nth-child(17) {
+   height: 7rem;
+}
+
+.group__bar-6 .crowd__bar-meter:nth-child(18) {
+   height: 4rem;
+}
+
+.group__bar-6 .crowd__bar-meter:nth-child(19) {
+   height: 5rem;
+}
+
+.group__bar-6 .crowd__bar-meter:nth-child(20) {
+   height: 2rem;
+}
+
+.group__bar-6 .crowd__bar-meter:nth-child(21) {
+   height: 0.5rem;
+}
+
+.group__bar-6 .crowd__bar-meter:nth-child(22) {
+   height: 0.5rem;
+}
+
+.group__bar-6 .crowd__bar-meter:nth-child(23) {
+   height: 0.5rem;
+}
+
+.group__bar-6 .crowd__bar-meter:nth-child(24) {
+   height: 0.5rem;
+}
+
+/* ? DAY 7 */
+.group__bar-7 .crowd__bar-meter:nth-child(1) {
+   height: 1rem;
+}
+
+.group__bar-7 .crowd__bar-meter:nth-child(2) {
+   height: 5rem;
+}
+
+.group__bar-7 .crowd__bar-meter:nth-child(3) {
+   height: 5rem;
+}
+
+.group__bar-7 .crowd__bar-meter:nth-child(4) {
+   height: 5rem;
+}
+
+.group__bar-7 .crowd__bar-meter:nth-child(5) {
+   height: 5rem;
+}
+
+.group__bar-7 .crowd__bar-meter:nth-child(6) {
+   height: 5rem;
+}
+
+.group__bar-7 .crowd__bar-meter:nth-child(7) {
+   height: 5rem;
+}
+
+.group__bar-7 .crowd__bar-meter:nth-child(8) {
+   height: 4rem;
+}
+
+.group__bar-7 .crowd__bar-meter:nth-child(9) {
+   height: 3rem;
+}
+
+.group__bar-7 .crowd__bar-meter:nth-child(10) {
+   height: 4rem;
+}
+
+.group__bar-7 .crowd__bar-meter:nth-child(11) {
+   height: 4rem;
+}
+
+.group__bar-7 .crowd__bar-meter:nth-child(12) {
+   height: 4rem;
+}
+
+.group__bar-7 .crowd__bar-meter:nth-child(13) {
+   height: 9rem;
+}
+
+.group__bar-7 .crowd__bar-meter:nth-child(14) {
+   height: 7rem;
+}
+
+.group__bar-7 .crowd__bar-meter:nth-child(15) {
+   height: 8rem;
+}
+
+.group__bar-7 .crowd__bar-meter:nth-child(16) {
+   height: 6rem;
+}
+
+.group__bar-7 .crowd__bar-meter:nth-child(17) {
+   height: 7rem;
+}
+
+.group__bar-7 .crowd__bar-meter:nth-child(18) {
+   height: 4rem;
+}
+
+.group__bar-7 .crowd__bar-meter:nth-child(19) {
+   height: 9rem;
+}
+
+.group__bar-7 .crowd__bar-meter:nth-child(20) {
+   height: 2rem;
+}
+
+.group__bar-7 .crowd__bar-meter:nth-child(21) {
+   height: 0.5rem;
+}
+
+.group__bar-7 .crowd__bar-meter:nth-child(22) {
+   height: 0.5rem;
+}
+
+.group__bar-7 .crowd__bar-meter:nth-child(23) {
+   height: 0.5rem;
+}
+
+.group__bar-7 .crowd__bar-meter:nth-child(24) {
+   height: 0.5rem;
+}
+
+/* MEMBERSHIPS SECTION */
+.membership__content {
+   color: var(--color-tertiary);
+   display: flex;
+   justify-content: center;
+   text-align: center;
+}
+
+.membership__plans {
+   background-color: var(--color-secondary);
+   border-radius: 10px;
+   margin: 0 3rem;
+   margin: 0 3rem;
+   min-width: 470px;
+   padding: 2rem 4rem;
+   position: relative;
+}
+
+.membership__plans .membership__item {
+   position: relative;
+   text-align: left;
+}
+
+.svg__sprite--checkMark {
+   fill: var(--color-primary);
+   height: 1.5rem;
+   position: absolute;
+   top: 50%;
+   transform: translate(-120%, -50%);
+   width: 1.5rem;
+}
+
+.membership__title {
+   color: var(--color-primary);
+   font-size: 3rem;
+   margin: 0;
+}
+
+.membership__subtitle {
+   margin: 0;
+}
+
+sup {
+   color: var(--color-primary);
+   font-size: 2rem;
+}
+
+.membership__disclaimer {
+   display: block;
+   font-size: 1rem;
+   opacity: 50%;
+}
+
+.membership__price {
+   font-size: 4rem;
+}
+
+/* BACKGROUND VIDEO */
+
+.background-video {
+   padding-bottom: 0;
+}
+
+.background-video__content {
+   height: 400px;
+   margin: auto;
+   max-height: 500px;
+   position: relative;
+   width: 80%;
+}
+
+.video__background {
+   border-radius: 10px;
+   height: 400px;
+   margin: auto;
+   object-fit: cover;
+   opacity: 60%;
+   width: 100%;
+}
+
+/* GALLERY SECTION */
+.gallery__grid {
+   column-gap: 1.3rem;
+   display: grid;
+   grid-template-columns: repeat(4, 20%);
+   grid-template-rows: repeat(2, 50%);
+   justify-content: center;
+   margin: 0 auto;
+   max-width: 100%;
+   padding: 1rem;
+   row-gap: 1.3rem;
+}
+
+.gallery__element {
+   height: 200px;
+   overflow: hidden;
+   position: relative;
+}
+
+.gallery__photos {
+   cursor: pointer;
+   height: 200px;
+}
+
+.gallery__photos img {
+   border-radius: 5px;
+   height: 100%;
+   object-fit: cover;
+   object-position: center;
+   width: 100%;
+}
+
+.gallery__info {
+   background-color: rgba(255, 255, 255, 0.692);
+   border-radius: 0 0 5px 5px;
+   bottom: 0;
+   color: var(--color-tertiary);
+   left: 0;
+   max-height: 100%;
+   opacity: 0;
+   padding: 1rem;
+   position: absolute;
+   right: 0;
+   text-align: left;
+   transform: translateY(100%);
+   transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.gallery__element:hover .gallery__info {
+   opacity: 1;
+   transform: translateY(0);
+}
+
+.info__title {
+   margin: 0;
+}
+
+.info__text {
+   font-size: 1.3rem;
+}
+
+/* feed SECTION */
+.feed__carrousel {
+   height: 40rem;
+   margin: 0 auto;
+   max-width: 1800px;
+   overflow: hidden;
+   position: relative;
+}
+
+.feed__slider {
+   /* THIS creates the animation! */
+   align-items: center;
+   display: flex;
+   height: 40rem;
+   justify-content: center;
+   position: absolute;
+   top: 0;
+   transition: transform 1s;
+   width: 100%;
+}
+
+/* the sections for each grid */
+.feed__slider-section {
+   column-gap: 3rem;
+   display: grid;
+   grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
+   max-width: 1800px;
+   width: 100%;
+}
+
+.feed__post {
+   border-radius: 5px;
+   border: 2px solid var(--color-primary);
+   padding: 0.2rem;
+}
+
+.feed_photo {
+   height: 30rem;
+}
+
+.feed_photo img {
+   border-radius: 5px 5px 0 0;
+   height: 100%;
+   object-fit: cover;
+   width: 100%;
+}
+
+.feed_user {
+   color: var(--color-primary);
+   margin: 1rem 0;
+}
+
+@media (max-width: 1050px) {
+   /* Gym schedule */
+   .schedule__content {
+      flex-direction: column;
+      margin: 1rem 0;
+   }
+
+   .schedule__inner-bottom {
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+   }
+
+   .schedule__inner-bottom .schedule__tab-hour {
+      font-size: 1.2rem;
+      margin: 0rem;
+   }
+
+   /* Memberships section */
+   .membership__content {
+      flex-direction: column;
+   }
+
+   .membership__plans {
+      margin: 2rem 0;
+      min-width: 100%;
+   }
+
+   /* Gallery of classes  */
+   .gallery__grid {
+      grid-template-columns: repeat(2, 45%);
+      grid-template-rows: repeat(4, 25%);
+      height: auto;
+   }
+
+   .gallery__info {
+      background-color: rgba(255, 255, 255, 0.534);
+      opacity: 1;
+      padding: 0.5rem;
+      transform: translateY(0);
+   }
+}
+
+@media (max-width: 600px) {
+   /* Carrousel Hall of fame */
+   .feed__slider-section {
+      column-gap: 1rem;
+      grid-template-columns: 1fr 3fr 3fr 1fr;
+   }
+
+   .feed__post-item-3 {
+      display: none;
+   }
+
+   .feed_user {
+      font-size: 1.2rem;
+   }
+
+   .schedule__inner-top .crowd__tab-day {
+      margin: 0;
+   }
+}

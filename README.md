@@ -1,17 +1,16 @@
 # Luis Guaiquirian
 
-## 📜 MEETPeople project 📜
+## 📜 EncoreGym website 📜
 
-Responsive website with functional links. Mainly for Sass practice and some Js.
+Responsive website with functional links.
 
 ## 👨‍💻 Used Technologies 👨‍💻
 
-| Technology | Description                                                                          |
-| ---------- | ------------------------------------------------------------------------------------ |
-| HTML       | Basic structure.                                                                     |
-| CSS        | Style and animations.                                                                |
-| Sass       | To compile all the CSS style, I did use some variables, utilities and mixins from it |
-| JavaScript | All the interaction, mainly used in the testimonial section.                         |
+| Technology | Description                                                  |
+| ---------- | ------------------------------------------------------------ |
+| HTML       | Basic structure.                                             |
+| CSS        | Style and animations.                                        |
+| JavaScript | All the interaction, mainly used in the testimonial section. |
 
 ## 🤗 Social Network 🤗
 
@@ -20,6 +19,3 @@ Responsive website with functional links. Mainly for Sass practice and some Js.
 - 🧑‍💻 Instagram: https://www.instagram.com/luisgcode/ 🧑‍💻
 
 ## 📜 Screenshots 📜
-
-![Alt text](image.png)
-![Alt text](image-1.png)

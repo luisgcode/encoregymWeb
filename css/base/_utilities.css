@@ -7,23 +7,86 @@ centrar en flex
  */
 
 .uti-fle-cen {
-   display: flex;
-   align-items: center;
-   justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .uti-pos-cen {
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .uti-svg-ico {
-   align-items: center;
-   display: flex;
-   height: 3rem;
-   justify-content: center;
-   line-height: 0;
-   width: 3rem;
+  align-items: center;
+  display: flex;
+  height: 3rem;
+  justify-content: center;
+  line-height: 0;
+  width: 3rem;
+}
+
+.block {
+  margin: 4rem auto;
+  max-width: 100%;
+  padding: 4rem 0;
+  text-align: center;
+  transform: translateY(-3rem);
+  transition: transform 1s, opacity 1s;
+}
+
+.divisor {
+  border-bottom: 3px solid rgba(128, 128, 128, 0.151);
+}
+
+.text-section {
+  background-color: var(--color-secondary);
+  border-radius: 5px;
+  color: var(--color-tertiary);
+  padding: 2rem;
+  text-align: left;
+  width: 90%;
+}
+
+.text-section .heading-secondary {
+  font-weight: bold;
+}
+
+/* To generate de faded effect */
+.block--hidden {
+  opacity: 0;
+  transform: translateY(0);
+}
+
+/* To reduce visibility of some elements */
+.opacity {
+  opacity: 50%;
+}
+
+/* Detail info */
+.detail__info {
+  font-size: 1.4rem;
+  left: 0;
+  position: absolute;
+}
+
+/* regular text */
+.regular-text {
+  margin: 2rem auto;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 180rem;
+  padding: 1rem;
+}
+
+/*--- Media Query ---*/
+@media (max-width: 1050px) {
+  main {
+    margin: 0 auto;
+    max-width: 98%;
+  }
 }
