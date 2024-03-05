@@ -12,7 +12,7 @@ body {
 p::selection,
 h2::selection,
 h3::selection {
-  background-color: var(--color-primary);
+  background-color: var(--color-primardy);
   color: var(--color-tertiary);
 }
 
